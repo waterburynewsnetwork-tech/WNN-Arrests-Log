@@ -1,17 +1,31 @@
-name: Probe dashboards
+name: Update arrests
 on:
+  schedule:
+    - cron: "15 11 * * *"
   workflow_dispatch: {}
+permissions:
+  contents: write
 jobs:
-  probe:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install playwright && playwright install --with-deps chromium
-      - run: python powerbi_probe.py
-      - uses: actions/upload-artifact@v4
-        with:
-          name: probe
-          path: probe/
+      - run: pip install -r requirements.txt
+      - run: python scrape.py
+      - name: Dashboards (Naugatuck, Middlebury)
+        continue-on-error: true
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+          python powerbi_scrape.py
+      - name: Commit changes
+        run: |
+          git config user.name "arrest-bot"
+          git config user.email "arrest-bot@users.noreply.github.com"
+          git add data.json
+          git add -f debug 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Update arrests"
+          git push
