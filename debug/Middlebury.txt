@@ -1,0 +1,96 @@
+Show keyboard shortcuts
+Show screen reader tips
+Skip to main content
+Power BI Report
+
+Arrest Data
+
+***The charges listed are those at the time of arrest.  Pending charges represent allegations only and does not indicate convictions.  In some circumstances substitute charges received from the judicial branch may be displayed. All arrested or accused persons are presumed innocent until proven guilty in a court of law.  Status of court cases can be found at   https://jud.ct.gov/crim.htm  ***
+
+Arrestee Name
+All
+ArrestDate
+Last
+Months
+9/20/2026 - 10/19/2026
+
+Arrestee Information
+
+Scroll up
+Scroll down
+Scroll left
+Scroll right
+Row Selection
+Age
+ 
+Scroll up
+Scroll down
+Scroll left
+Scroll right
+Row Selection
+Gender
+Scroll up
+Scroll down
+Scroll left
+Scroll right
+Row Selection
+Arrestee Name
+ 
+Total Arrest Count
+0
+Adult Arrestee Count
+0
+Juvenile Arrestee Count
+0
+Clear all slicers
+Scroll up
+Scroll down
+Scroll left
+Scroll right
+Row Selection
+Arrest Date
+Scroll up
+Scroll down
+Scroll left
+Scroll right
+Row Selection
+CFS #
+ 
+Calls For Service
+Offenses
+Crime Trends
+Stolen Vehicle
+Accidents
+MV Stops
+Incident Blotter
+Arrests
+Scroll up
+Scroll down
+Scroll left
+Scroll right
+Row Selection
+I
+Arrest Date
+ 
+Arrestee Name
+Gender
+Age
+Scroll up
+Scroll down
+Scroll left
+Scroll right
+Row Selection
+Charges
+ 
+Counts
+Last Data Refresh
+10/18/2026 7:00:13 AM
+
+***The data displayed in this dashboard is derived from the law enforcement agency records management system.  The data displayed is live as of the last data refresh date listed. All incidents may not have been reviewed for accuracy and may be subject to change. Some data points have been omitted to comply disclosure non-laws.***
+
+-
++
+133%
+Microsoft Power BI
+8of8
+Report Zoomed To 133%

@@ -1,1 +1,470 @@
-{"updated": null, "window_days": 30, "arrests": [], "towns": {}}
+{
+ "updated": "2026-10-19T06:22:44+00:00",
+ "window_days": 30,
+ "arrests": [
+  {
+   "town": "Naugatuck",
+   "name": "Steven Michael Hayden",
+   "date": "2026-10-17",
+   "charges": [
+    "- Risk Of Injury",
+    "- Assault 3",
+    "- Strngl/Suff-2nd"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Robert Philip Cortina",
+   "date": "2026-10-17",
+   "charges": [
+    "- Crim Mischief 1",
+    "- Disorderly Cndt",
+    "- Assault 3"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Nikki Tijuana Freeman",
+   "date": "2026-10-17",
+   "charges": [
+    "- Und Suspension"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Michael Jason Riccio",
+   "date": "2026-10-17",
+   "charges": [
+    "- Disorderly Cndt",
+    "- Assault 3"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Luis Miguel Reynoso Delacruz",
+   "date": "2026-10-16",
+   "charges": [
+    "- Und Suspension"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Evelyn Sepulveda",
+   "date": "2026-10-16",
+   "charges": [
+    "- Minimum Insrnce",
+    "- Und 14-140 Spns"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Amiya Grant",
+   "date": "2026-10-16",
+   "charges": [
+    "- Op Un Influence",
+    "- Improper Lane"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Adrielle A De Souza Vieria",
+   "date": "2026-10-16",
+   "charges": [
+    "- Und Suspension"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Mathews Lucas",
+   "date": "2026-10-15",
+   "charges": [
+    "- Und Suspension",
+    "- Op Mv Tel/Txt"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Marvin Joseph Quiles",
+   "date": "2026-10-15",
+   "charges": [
+    "- Minimum Insrnce",
+    "- Und Suspension"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Jake W Bakker",
+   "date": "2026-10-14",
+   "charges": [
+    "- Minimum Insrnce",
+    "- Und 14-140 Spns"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Emanuel Dejesus Pineda",
+   "date": "2026-10-14",
+   "charges": [
+    "- Threat 2 Physl"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Sarina L Carneiro",
+   "date": "2026-10-13",
+   "charges": [
+    "- Op Un Influence"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Martir Wilmer Ramirez-Garcia",
+   "date": "2026-10-13",
+   "charges": [
+    "- Drug Paraphrnla"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Xavier Aviles",
+   "date": "2026-10-12",
+   "charges": [
+    "- Larceny 6"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Anthony Otis Barger",
+   "date": "2026-10-12",
+   "charges": [
+    "- Brch Of Peace 2",
+    "- Vio Protect Ord",
+    "- Assault 3"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Mark A Konecny",
+   "date": "2026-10-09",
+   "charges": [
+    "- Brch Of Peace 2",
+    "- Vio Protect Ord",
+    "- Assault 3"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Sameria Dukes",
+   "date": "2026-10-07",
+   "charges": [
+    "- Brch Of Peace 2",
+    "- Vio Protect Ord",
+    "- Assault 3"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Marvin Hardy Nelson",
+   "date": "2026-10-07",
+   "charges": [
+    "- Brch Of Peace 2",
+    "- Vio Protect Ord",
+    "- Assault 3"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Kyron O Walker",
+   "date": "2026-10-07",
+   "charges": [
+    "- Brch Of Peace 2",
+    "- Vio Protect Ord",
+    "- Assault 3"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Marlon M Henderson",
+   "date": "2026-10-06",
+   "charges": [
+    "- Und Suspension",
+    "- Unreason Fast"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Anthony Vargas",
+   "date": "2026-10-06",
+   "charges": [
+    "- Sale Narcotic"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Theresa M Lister",
+   "date": "2026-10-05",
+   "charges": [
+    "- Brch Of Peace 2"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Rocco G Barriga",
+   "date": "2026-10-05",
+   "charges": [
+    "- Larceny 6"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Antonio Silva",
+   "date": "2026-10-05",
+   "charges": [
+    "- Dmg Ll Prprty 1"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Shiana Marie Soler",
+   "date": "2026-10-04",
+   "charges": [
+    "- Und 14-140 Spns",
+    "- Op Un Influence",
+    "- Imp Rear Lamps"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Sylvio Rapuano",
+   "date": "2026-10-03",
+   "charges": [
+    "- Op Un Influence",
+    "- Improper Lane",
+    "- Op Mv Tel/Txt",
+    "- Crim Mischief 3",
+    "- Forgery 2",
+    "- Brch Of Peace 2"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Samuel William Martinez",
+   "date": "2026-10-03",
+   "charges": [
+    "- Op Un Influence",
+    "- Improper Lane",
+    "- Op Mv Tel/Txt",
+    "- Crim Mischief 3",
+    "- Forgery 2",
+    "- Brch Of Peace 2"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Rebecca-Lynn Depalma",
+   "date": "2026-10-03",
+   "charges": [
+    "- Larceny 6"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Gustavo Rojas Delacruz",
+   "date": "2026-10-02",
+   "charges": [
+    "- Op Un Influence",
+    "- Improper Lane",
+    "- Op Mv Tel/Txt",
+    "- Crim Mischief 3",
+    "- Forgery 2",
+    "- Brch Of Peace 2"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Arthur J Gagne",
+   "date": "2026-10-02",
+   "charges": [
+    "- Op Un Influence",
+    "- Improper Lane",
+    "- Op Mv Tel/Txt",
+    "- Crim Mischief 3",
+    "- Forgery 2",
+    "- Brch Of Peace 2"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Melissa Mae Ahlgren",
+   "date": "2026-10-01",
+   "charges": [
+    "- Crim Impersontn",
+    "- Brch Of Peace 2",
+    "- Stalking 2nd",
+    "- Harassment 2"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Melissa Mae Ahlgren",
+   "date": "2026-10-01",
+   "charges": [
+    "- No Rabies Vac",
+    "- Unlicensed Dogs",
+    "- Cruelty-Animals"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Melissa Mae Ahlgren",
+   "date": "2026-10-01",
+   "charges": [
+    "- Flr To Appear 2"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Valeria Estefania Cornejo",
+   "date": "2026-09-30",
+   "charges": [
+    "- State Bldg Code",
+    "- Bldg Insptr Ord"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Saj Anton Sajous",
+   "date": "2026-09-30",
+   "charges": [
+    "- Brch Of Peace 2"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Milton Ernesto Coronel Guaman",
+   "date": "2026-09-30",
+   "charges": [
+    "- State Bldg Code",
+    "- Bldg Insptr Ord"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Carrie A Maturo",
+   "date": "2026-09-30",
+   "charges": [
+    "- Use Mv Wo Perm"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Aidon T Young",
+   "date": "2026-09-30",
+   "charges": [
+    "- Reckless Drivng",
+    "- Risk Of Injury"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Tiffany Eleanor Scatena",
+   "date": "2026-09-29",
+   "charges": [
+    "- Reckless Drivng",
+    "- Risk Of Injury"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Matthew Brijmohan",
+   "date": "2026-09-29",
+   "charges": [
+    "- Reckless Drivng",
+    "- Risk Of Injury"
+   ],
+   "source": "dashboard"
+  },
+  {
+   "town": "Naugatuck",
+   "name": "Taijon Marquest Cooper",
+   "date": "2026-09-28",
+   "charges": [
+    "- Reckless Drivng",
+    "- Risk Of Injury"
+   ],
+   "source": "dashboard"
+  }
+ ],
+ "towns": {
+  "Cheshire": {
+   "status": "warning",
+   "logs_read": 4,
+   "latest": null,
+   "note": "No arrests parsed; no arrests in the window, or the PDF layout changed."
+  },
+  "Watertown/Oakville": {
+   "status": "ok",
+   "logs_read": 0,
+   "latest": null,
+   "note": "Skipped a log: 404 Client Error: Not Found for url: https://watertownct.org/departments/police_department/Documents/Departments/Police%20Department/Community%20Resources/Arrest%20Log/press%20arrest%20log%20060126-060726.pdf"
+  },
+  "Southington": {
+   "status": "error",
+   "logs_read": 0,
+   "latest": null,
+   "note": "Could not load log page: robots.txt disallows automated access"
+  },
+  "Naugatuck": {
+   "status": "ok",
+   "logs_read": 1,
+   "latest": "2026-10-17",
+   "note": "Power BI dashboard."
+  },
+  "Middlebury": {
+   "status": "warning",
+   "logs_read": 1,
+   "latest": null,
+   "note": "No arrests read from the dashboard; layout may have changed."
+  }
+ }
+}
