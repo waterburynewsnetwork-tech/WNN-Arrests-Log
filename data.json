@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T06:22:44+00:00",
+ "updated": "2026-10-19T07:13:39+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -453,18 +453,6 @@
    "logs_read": 0,
    "latest": null,
    "note": "Could not load log page: robots.txt disallows automated access"
-  },
-  "Naugatuck": {
-   "status": "ok",
-   "logs_read": 1,
-   "latest": "2026-10-17",
-   "note": "Power BI dashboard."
-  },
-  "Middlebury": {
-   "status": "warning",
-   "logs_read": 1,
-   "latest": null,
-   "note": "No arrests read from the dashboard; layout may have changed."
   }
  }
 }
