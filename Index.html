@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Greater Waterbury Area Arrests, Last 30 Days</title>
+<style>
+:root{--bg:#f6f5f1;--fg:#1d2327;--mute:#5d666b;--line:#d8d6cf;--accent:#1f4e79;--card:#fff;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#14181b;--fg:#e7e9ea;--mute:#98a1a6;--line:#2c3338;--accent:#8fb8de;--card:#1b2024;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 Georgia,"Iowan Old Style",serif;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+main{max-width:46rem;margin:0 auto;padding:1.25rem 1rem 3rem}
+h1{font-size:1.6rem;line-height:1.2;margin:.5rem 0}
+h2{font-size:1.05rem;margin:2rem 0 .5rem}
+p,li{max-width:65ch}
+.note{border-left:3px solid var(--accent);padding:.1rem 0 .1rem .8rem;color:var(--mute);margin:1rem 0}
+.controls{display:flex;gap:.5rem;flex-wrap:wrap;margin:1rem 0}
+select,input{font:inherit;padding:.5rem .6rem;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg);min-width:0}
+input{flex:1 1 10rem}
+.day{font-weight:bold;margin:1.4rem 0 .3rem;border-bottom:1px solid var(--line);padding-bottom:.2rem}
+.row{padding:.55rem 0;border-bottom:1px solid var(--line)}
+.row b{font-weight:600}
+.town{color:var(--accent)}
+.charges{color:var(--mute);font-size:.95rem}
+.status{font-size:.9rem;color:var(--mute)}
+.status li{margin:.3rem 0}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+</head>
+<body>
+<main>
+<h1>Arrests in the Greater Waterbury Area, Last 30 Days</h1>
+<p id="updated" class="status">Loading…</p>
+<p class="note">An arrest is not a conviction. Everyone listed is presumed innocent unless found guilty in court. Charges can be reduced or dropped, and Connecticut law can erase records of dismissed charges. Entries come from police press logs and drop off after 30 days.</p>
+
+<div class="controls">
+  <select id="town" aria-label="Filter by town"><option value="">All towns</option></select>
+  <input id="q" type="search" placeholder="Search name or charge" aria-label="Search">
+</div>
+
+<div id="list" aria-live="polite"></div>
+
+<h2>Towns without an automatic feed</h2>
+<ul class="status" id="linkouts"></ul>
+
+<h2>Source status</h2>
+<ul class="status" id="status"></ul>
+</main>
+
+<script>
+// Towns that don't publish a log we can read automatically. Add a url when you find one.
+const LINK_OUTS = [
+  {town:"Bristol", note:"Posts PDF logs; the site blocks automated reading.", url:"https://www.bristolct.gov/560/Arrest-Blotter"},
+  {town:"Naugatuck", note:"Power BI dashboard, refreshed daily. Tap Arrests, the last button on the left.", url:"https://app.powerbi.com/view?r=eyJrIjoiYzg2Zjc5ZmUtYWYyZi00ZDQ5LTgyNjgtZGU4YjI1ZWEyZTUxIiwidCI6IjNiMjc3NDMwLTNjOGYtNGQ3Yy04Y2EwLTY2Zjk5YzA0MTcwYSIsImMiOjJ9"},
+  {town:"Middlebury", note:"Dashboard on Power BI.", url:"https://app.powerbigov.us/view?r=eyJrIjoiMDQ5ZjI3ZmItOWU1MS00ZDkyLWE4N2YtMTMxYTY3NjU2ZTA0IiwidCI6ImU5YzM5MTVjLTRkNjgtNDY1MC1iNDUzLTViNmI3ZDQxYzA3NSJ9"},
+  {town:"Waterbury", note:"Posts on Facebook.", url:""},
+  {town:"Plymouth/Terryville", note:"Posts on Facebook.", url:""},
+  {town:"Thomaston", note:"Posts on Facebook.", url:""},
+  {town:"Southbury", note:"Posts on Facebook.", url:""}
+];
+
+const $ = id => document.getElementById(id);
+const fmtDay = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"});
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let data = {arrests:[], towns:{}};
+
+function render(){
+  const town = $("town").value, q = $("q").value.trim().toLowerCase();
+  const rows = data.arrests.filter(a => (!town || a.town === town) &&
+    (!q || (a.name + " " + a.charges.join(" ")).toLowerCase().includes(q)));
+  if (!rows.length){
+    $("list").innerHTML = '<p class="status">No arrests match. Logs are posted weekly to monthly, so recent days may not appear yet.</p>';
+    return;
+  }
+  let html = "", day = "";
+  for (const a of rows){
+    if (a.date !== day){ day = a.date; html += `<div class="day">${fmtDay(day)}</div>`; }
+    html += `<div class="row"><b>${esc(a.name)}</b> <span class="town">${esc(a.town)}</span>` +
+      (a.charges.length ? `<div class="charges">${esc(a.charges.join("; "))}</div>` : "") + `</div>`;
+  }
+  $("list").innerHTML = html;
+}
+
+fetch("data.json", {cache:"no-store"}).then(r => r.json()).then(d => {
+  data = d;
+  const names = Object.keys(d.towns);
+  $("town").insertAdjacentHTML("beforeend", names.map(t => `<option>${esc(t)}</option>`).join(""));
+  $("updated").textContent = d.updated
+    ? "Updated " + new Date(d.updated).toLocaleString("en-US",{dateStyle:"medium",timeStyle:"short"})
+    : "No data yet. The first update runs after setup.";
+  $("status").innerHTML = names.map(t => {
+    const s = d.towns[t];
+    const latest = s.latest ? "latest arrest listed " + fmtDay(s.latest) : "no arrests listed";
+    return `<li><b>${esc(t)}</b>: ${esc(s.status)}, ${latest}.${s.note ? " " + esc(s.note) : ""}</li>`;
+  }).join("");
+  render();
+}).catch(() => { $("updated").textContent = "Could not load data.json."; });
+
+$("linkouts").innerHTML = LINK_OUTS.map(l =>
+  `<li><b>${esc(l.town)}</b>: ${esc(l.note)} ` + (l.url ? `<a href="${esc(l.url)}" rel="noopener">Department page</a>` : "") + `</li>`).join("");
+$("town").addEventListener("change", render);
+$("q").addEventListener("input", render);
+</script>
+</body>
+</html>
