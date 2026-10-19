@@ -15,7 +15,7 @@ from urllib.robotparser import RobotFileParser
 
 import requests
 
-UA = "CT-Arrest-Collector/1.0 (contact: YOUR_EMAIL_HERE)"  # <- put your email
+UA = "CT-Arrest-Collector/1.0 (contact: WaterburyNewsNetwork@gmail.com)"  # <- put your email
 WINDOW_DAYS = 30
 MAX_LOGS = 12      # newest-looking PDFs to read per town per run
 OUT = "data.json"
