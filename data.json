@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T11:47:13+00:00",
+ "updated": "2026-10-29T11:47:47+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -418,16 +418,6 @@
    "town": "Naugatuck",
    "name": "Matthew Brijmohan",
    "date": "2026-09-29",
-   "charges": [
-    "- Reckless Drivng",
-    "- Risk Of Injury"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Taijon Marquest Cooper",
-   "date": "2026-09-28",
    "charges": [
     "- Reckless Drivng",
     "- Risk Of Injury"
