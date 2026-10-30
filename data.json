@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T11:47:47+00:00",
+ "updated": "2026-10-30T11:44:26+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -398,26 +398,6 @@
    "town": "Naugatuck",
    "name": "Aidon T Young",
    "date": "2026-09-30",
-   "charges": [
-    "- Reckless Drivng",
-    "- Risk Of Injury"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Tiffany Eleanor Scatena",
-   "date": "2026-09-29",
-   "charges": [
-    "- Reckless Drivng",
-    "- Risk Of Injury"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Matthew Brijmohan",
-   "date": "2026-09-29",
    "charges": [
     "- Reckless Drivng",
     "- Risk Of Injury"
