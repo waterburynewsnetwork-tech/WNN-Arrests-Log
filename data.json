@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T11:44:26+00:00",
+ "updated": "2026-10-31T11:40:05+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -353,54 +353,6 @@
    "date": "2026-10-01",
    "charges": [
     "- Flr To Appear 2"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Valeria Estefania Cornejo",
-   "date": "2026-09-30",
-   "charges": [
-    "- State Bldg Code",
-    "- Bldg Insptr Ord"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Saj Anton Sajous",
-   "date": "2026-09-30",
-   "charges": [
-    "- Brch Of Peace 2"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Milton Ernesto Coronel Guaman",
-   "date": "2026-09-30",
-   "charges": [
-    "- State Bldg Code",
-    "- Bldg Insptr Ord"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Carrie A Maturo",
-   "date": "2026-09-30",
-   "charges": [
-    "- Use Mv Wo Perm"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Aidon T Young",
-   "date": "2026-09-30",
-   "charges": [
-    "- Reckless Drivng",
-    "- Risk Of Injury"
    ],
    "source": "dashboard"
   }
