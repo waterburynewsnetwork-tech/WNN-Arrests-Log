@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T11:40:05+00:00",
+ "updated": "2026-11-01T11:40:01+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -321,38 +321,6 @@
     "- Crim Mischief 3",
     "- Forgery 2",
     "- Brch Of Peace 2"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Melissa Mae Ahlgren",
-   "date": "2026-10-01",
-   "charges": [
-    "- Crim Impersontn",
-    "- Brch Of Peace 2",
-    "- Stalking 2nd",
-    "- Harassment 2"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Melissa Mae Ahlgren",
-   "date": "2026-10-01",
-   "charges": [
-    "- No Rabies Vac",
-    "- Unlicensed Dogs",
-    "- Cruelty-Animals"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Melissa Mae Ahlgren",
-   "date": "2026-10-01",
-   "charges": [
-    "- Flr To Appear 2"
    ],
    "source": "dashboard"
   }
