@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T11:40:01+00:00",
+ "updated": "2026-11-02T11:57:03+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -293,34 +293,6 @@
    "date": "2026-10-03",
    "charges": [
     "- Larceny 6"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Gustavo Rojas Delacruz",
-   "date": "2026-10-02",
-   "charges": [
-    "- Op Un Influence",
-    "- Improper Lane",
-    "- Op Mv Tel/Txt",
-    "- Crim Mischief 3",
-    "- Forgery 2",
-    "- Brch Of Peace 2"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Arthur J Gagne",
-   "date": "2026-10-02",
-   "charges": [
-    "- Op Un Influence",
-    "- Improper Lane",
-    "- Op Mv Tel/Txt",
-    "- Crim Mischief 3",
-    "- Forgery 2",
-    "- Brch Of Peace 2"
    ],
    "source": "dashboard"
   }
