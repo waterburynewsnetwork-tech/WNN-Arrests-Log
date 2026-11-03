@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T11:57:03+00:00",
+ "updated": "2026-11-03T11:55:20+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -258,51 +258,14 @@
     "- Imp Rear Lamps"
    ],
    "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Sylvio Rapuano",
-   "date": "2026-10-03",
-   "charges": [
-    "- Op Un Influence",
-    "- Improper Lane",
-    "- Op Mv Tel/Txt",
-    "- Crim Mischief 3",
-    "- Forgery 2",
-    "- Brch Of Peace 2"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Samuel William Martinez",
-   "date": "2026-10-03",
-   "charges": [
-    "- Op Un Influence",
-    "- Improper Lane",
-    "- Op Mv Tel/Txt",
-    "- Crim Mischief 3",
-    "- Forgery 2",
-    "- Brch Of Peace 2"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Rebecca-Lynn Depalma",
-   "date": "2026-10-03",
-   "charges": [
-    "- Larceny 6"
-   ],
-   "source": "dashboard"
   }
  ],
  "towns": {
   "Cheshire": {
-   "status": "warning",
-   "logs_read": 4,
+   "status": "error",
+   "logs_read": 0,
    "latest": null,
-   "note": "No arrests parsed; no arrests in the window, or the PDF layout changed."
+   "note": "Could not load log page: HTTPSConnectionPool(host='www.cheshirect.gov', port=443): Max retries exceeded with url: /211/Arrest-Logs (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.cheshirect.gov', port=443) at 0x7c569b4e43e0>, 'Connection to www.cheshirect.gov timed out. (connect timeout=40)'))"
   },
   "Watertown/Oakville": {
    "status": "ok",
