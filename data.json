@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:55:20+00:00",
+ "updated": "2026-11-04T11:58:25+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -247,25 +247,14 @@
     "- Dmg Ll Prprty 1"
    ],
    "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Shiana Marie Soler",
-   "date": "2026-10-04",
-   "charges": [
-    "- Und 14-140 Spns",
-    "- Op Un Influence",
-    "- Imp Rear Lamps"
-   ],
-   "source": "dashboard"
   }
  ],
  "towns": {
   "Cheshire": {
-   "status": "error",
-   "logs_read": 0,
+   "status": "warning",
+   "logs_read": 4,
    "latest": null,
-   "note": "Could not load log page: HTTPSConnectionPool(host='www.cheshirect.gov', port=443): Max retries exceeded with url: /211/Arrest-Logs (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.cheshirect.gov', port=443) at 0x7c569b4e43e0>, 'Connection to www.cheshirect.gov timed out. (connect timeout=40)'))"
+   "note": "No arrests parsed; no arrests in the window, or the PDF layout changed."
   },
   "Watertown/Oakville": {
    "status": "ok",
