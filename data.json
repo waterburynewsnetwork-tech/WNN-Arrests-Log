@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T11:58:25+00:00",
+ "updated": "2026-11-05T11:59:04+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -218,33 +218,6 @@
    "date": "2026-10-06",
    "charges": [
     "- Sale Narcotic"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Theresa M Lister",
-   "date": "2026-10-05",
-   "charges": [
-    "- Brch Of Peace 2"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Rocco G Barriga",
-   "date": "2026-10-05",
-   "charges": [
-    "- Larceny 6"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Antonio Silva",
-   "date": "2026-10-05",
-   "charges": [
-    "- Dmg Ll Prprty 1"
    ],
    "source": "dashboard"
   }
