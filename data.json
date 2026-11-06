@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T11:59:04+00:00",
+ "updated": "2026-11-06T11:55:25+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -199,25 +199,6 @@
     "- Brch Of Peace 2",
     "- Vio Protect Ord",
     "- Assault 3"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Marlon M Henderson",
-   "date": "2026-10-06",
-   "charges": [
-    "- Und Suspension",
-    "- Unreason Fast"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Anthony Vargas",
-   "date": "2026-10-06",
-   "charges": [
-    "- Sale Narcotic"
    ],
    "source": "dashboard"
   }
