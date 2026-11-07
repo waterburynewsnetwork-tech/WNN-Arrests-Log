@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T11:55:25+00:00",
+ "updated": "2026-11-07T11:43:26+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -162,39 +162,6 @@
    "town": "Naugatuck",
    "name": "Mark A Konecny",
    "date": "2026-10-09",
-   "charges": [
-    "- Brch Of Peace 2",
-    "- Vio Protect Ord",
-    "- Assault 3"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Sameria Dukes",
-   "date": "2026-10-07",
-   "charges": [
-    "- Brch Of Peace 2",
-    "- Vio Protect Ord",
-    "- Assault 3"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Marvin Hardy Nelson",
-   "date": "2026-10-07",
-   "charges": [
-    "- Brch Of Peace 2",
-    "- Vio Protect Ord",
-    "- Assault 3"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Kyron O Walker",
-   "date": "2026-10-07",
    "charges": [
     "- Brch Of Peace 2",
     "- Vio Protect Ord",
