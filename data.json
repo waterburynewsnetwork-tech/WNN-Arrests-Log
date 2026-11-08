@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:43:26+00:00",
+ "updated": "2026-11-08T11:44:07+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -178,10 +178,10 @@
    "note": "No arrests parsed; no arrests in the window, or the PDF layout changed."
   },
   "Watertown/Oakville": {
-   "status": "ok",
+   "status": "error",
    "logs_read": 0,
    "latest": null,
-   "note": "Skipped a log: 404 Client Error: Not Found for url: https://watertownct.org/departments/police_department/Documents/Departments/Police%20Department/Community%20Resources/Arrest%20Log/press%20arrest%20log%20060126-060726.pdf"
+   "note": "Could not load log page: robots.txt disallows automated access"
   },
   "Southington": {
    "status": "error",
