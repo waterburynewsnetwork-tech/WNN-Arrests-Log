@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:44:07+00:00",
+ "updated": "2026-11-09T11:59:16+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -151,17 +151,6 @@
    "town": "Naugatuck",
    "name": "Anthony Otis Barger",
    "date": "2026-10-12",
-   "charges": [
-    "- Brch Of Peace 2",
-    "- Vio Protect Ord",
-    "- Assault 3"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Mark A Konecny",
-   "date": "2026-10-09",
    "charges": [
     "- Brch Of Peace 2",
     "- Vio Protect Ord",
