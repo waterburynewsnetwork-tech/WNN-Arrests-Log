@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T11:58:41+00:00",
+ "updated": "2026-11-12T12:01:32+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -135,26 +135,6 @@
    "date": "2026-10-13",
    "charges": [
     "- Drug Paraphrnla"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Xavier Aviles",
-   "date": "2026-10-12",
-   "charges": [
-    "- Larceny 6"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Anthony Otis Barger",
-   "date": "2026-10-12",
-   "charges": [
-    "- Brch Of Peace 2",
-    "- Vio Protect Ord",
-    "- Assault 3"
    ],
    "source": "dashboard"
   }
