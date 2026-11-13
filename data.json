@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T12:01:32+00:00",
+ "updated": "2026-11-13T11:58:36+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -117,24 +117,6 @@
    "date": "2026-10-14",
    "charges": [
     "- Threat 2 Physl"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Sarina L Carneiro",
-   "date": "2026-10-13",
-   "charges": [
-    "- Op Un Influence"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Martir Wilmer Ramirez-Garcia",
-   "date": "2026-10-13",
-   "charges": [
-    "- Drug Paraphrnla"
    ],
    "source": "dashboard"
   }
