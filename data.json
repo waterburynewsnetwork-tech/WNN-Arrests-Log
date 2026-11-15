@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T11:43:29+00:00",
+ "updated": "2026-11-15T11:44:48+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -77,26 +77,6 @@
    "name": "Adrielle A De Souza Vieria",
    "date": "2026-10-16",
    "charges": [
-    "- Und Suspension"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Mathews Lucas",
-   "date": "2026-10-15",
-   "charges": [
-    "- Und Suspension",
-    "- Op Mv Tel/Txt"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Marvin Joseph Quiles",
-   "date": "2026-10-15",
-   "charges": [
-    "- Minimum Insrnce",
     "- Und Suspension"
    ],
    "source": "dashboard"
