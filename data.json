@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T11:44:48+00:00",
+ "updated": "2026-11-16T12:15:05+00:00",
  "window_days": 30,
  "arrests": [
   {
@@ -40,44 +40,6 @@
    "charges": [
     "- Disorderly Cndt",
     "- Assault 3"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Luis Miguel Reynoso Delacruz",
-   "date": "2026-10-16",
-   "charges": [
-    "- Und Suspension"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Evelyn Sepulveda",
-   "date": "2026-10-16",
-   "charges": [
-    "- Minimum Insrnce",
-    "- Und 14-140 Spns"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Amiya Grant",
-   "date": "2026-10-16",
-   "charges": [
-    "- Op Un Influence",
-    "- Improper Lane"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Adrielle A De Souza Vieria",
-   "date": "2026-10-16",
-   "charges": [
-    "- Und Suspension"
    ],
    "source": "dashboard"
   }
