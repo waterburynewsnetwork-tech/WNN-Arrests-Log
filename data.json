@@ -1,49 +1,7 @@
 {
- "updated": "2026-11-16T12:15:05+00:00",
+ "updated": "2026-11-17T11:55:03+00:00",
  "window_days": 30,
- "arrests": [
-  {
-   "town": "Naugatuck",
-   "name": "Steven Michael Hayden",
-   "date": "2026-10-17",
-   "charges": [
-    "- Risk Of Injury",
-    "- Assault 3",
-    "- Strngl/Suff-2nd"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Robert Philip Cortina",
-   "date": "2026-10-17",
-   "charges": [
-    "- Crim Mischief 1",
-    "- Disorderly Cndt",
-    "- Assault 3"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Nikki Tijuana Freeman",
-   "date": "2026-10-17",
-   "charges": [
-    "- Und Suspension"
-   ],
-   "source": "dashboard"
-  },
-  {
-   "town": "Naugatuck",
-   "name": "Michael Jason Riccio",
-   "date": "2026-10-17",
-   "charges": [
-    "- Disorderly Cndt",
-    "- Assault 3"
-   ],
-   "source": "dashboard"
-  }
- ],
+ "arrests": [],
  "towns": {
   "Cheshire": {
    "status": "warning",
